@@ -25,6 +25,11 @@
     cliente.on('mensaje', function(payload){
         console.log('Escuchando', payload);
     })
+
+
+    cliente.on('nuevo-mensaje', function(payload){
+        console.log('Escuchando', payload)
+    });
     
 </script>
     
